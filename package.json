@@ -1,0 +1,20 @@
+{
+  "name": "groupgetter",
+  "version": "1.0.0",
+  "description": "Get groups from an exchange server",
+  "main": "index.js",
+  "dependencies": {
+    "keytar": "^4.0.4",
+    "nconf": "^0.8.5",
+    "node-ews": "^3.2.2"
+  },
+  "bin" : {
+    "groupgetter" : "index.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hirenj@gmail.com",
+  "license": "ISC"
+}
