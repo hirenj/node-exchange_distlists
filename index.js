@@ -19,7 +19,7 @@ if ( ! email && ! listnames ) {
 
 let base_host = email.split('@')[1];
 
-let has_password = keytar.getPassword('Airmail',`r_${email}_${email}`);
+let has_password = keytar.getPassword('eduroam',`${email}`);
 
 has_password.then( password => { if ( ! password ) throw new Error('No password found'); return password; })
 .then( password => {
